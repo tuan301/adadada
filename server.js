@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const minecraftUrl = 'minecraft://?addExternalServer=loyfrieya.aternos.me|loyfrieya.aternos.me:18409';
+const minecraftUrl = 'minecraft://?addExternalServer=NUH UH|de-01.xeh.sh:25098';
 
 app.get('/', (req, res) => {
     res.redirect(minecraftUrl);
